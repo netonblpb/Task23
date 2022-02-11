@@ -9,7 +9,7 @@ int step = 1;
 while (i < num +1)
 {
     //step = i*i*i;
-    Console.Write($"{i} в квадрате степени равно {Math.Pow(i, 2)}");
+    Console.Write($"{i} в квадрате равно {Math.Pow(i, 2)}");
     Console.WriteLine();
     i++;
 }
